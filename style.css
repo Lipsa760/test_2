@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+.navbar{
+    background-color: rgb(202, 124, 6);
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+    float:left;
+    width: 49%;
+    align-items: center;
+}
+.logo img{
+    height: 4em;
+}
+.menu{
+    float:right;
+    width:50%;
+    padding:22px 0 22px 100px;
+}
+.menu a{
+    padding-right:43px ;
+    font-size:1.3em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu a select{
+    width:12%;
+    font-size: 0.8em;
+    border: none;
+    font-weight: bold;
+    background-color:rgb(202, 124, 6) ;
+}
+a:hover , select:hover{
+    color:white;
+}
+
+.section1{
+    height:640px;
+    width: 100%;
+}
+.content{
+    width:49%;
+    height:100%;
+    padding: 80px 0 0 45px;
+}
+.content p,h1{
+    padding: 12px 0 ;
+}
+.image{
+    width:50%;
+    height:100%;
+    margin:-640px 0 0 690px;
+    padding: 65px 0 0 90px;
+}
+.image img{
+    width:550px;
+    height: 450px;
+}
+.icon{
+     padding-left:120px;
+}
+.image i{
+    padding:30px 0 0 60px;
+    font-size:2.5rem;
+}
+.section2{
+    height:150px;
+    width:100%;
+    background-color: grey;
+    padding:60px 480px;
+}
+.section2 button{
+    width:200px;
+    height:50px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+button:hover{
+    background-color:rgb(8, 93, 96) ;
+    color:antiquewhite;
+}
+footer{
+    background-color: rgb(8, 93, 96);
+    height:200px;
+    width:100%;
+    text-align: center;
+}
+footer .contact{
+   padding-top: 50px;
+   color: white;
+}
+
+
+
